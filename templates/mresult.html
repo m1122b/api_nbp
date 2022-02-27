@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>!! CALCULATOR WALUT WYNIK!!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"
+</head>
+<body>
+    
+<h1>CALCULATOR WALUT Z DNIA {{tradingdate}} </h1>
+
+<h2>Wybrana waluta: {{mcode}} i ilość: {{howmany}}.</h2>
+<h2>Cena jednostowa wybranej waluty: {{mask}}.</h2>
+
+<h3>Cena waluty: {{number}}.</h3>
+
+<form method="POST">
+    <button type="submit">Powrót</button>
+</form>
+
+</body>
+</html>
+
